@@ -1,6 +1,8 @@
+import "./style.css"
+
 const Result = (props) =>{
     return(
-        <p >{props.value}</p>
+        <p className="result">{props.value}</p>
     )
 }
 export default Result

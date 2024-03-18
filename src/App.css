@@ -1,0 +1,17 @@
+.component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(75, 50, 187, 0.959);
+    height: 100vh;
+    color: white;
+}
+.resultAndButtons{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.addButton{
+    margin-left: 20px;
+}
